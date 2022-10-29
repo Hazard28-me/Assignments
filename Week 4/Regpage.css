@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(117, 117, 181);
+    margin: 20%
+}
+
+h1{
+    color: rgb(227, 207, 225);
+}
+
+table{
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 5px;
+}
+
+#first, #last, #pnum, #e_mail, #genda, #date, #color, #pass, #passr{
+    font-size: 15px;
+    /* font-family: Gill Sans; */
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#fname{
+    font-size: 20px;
+
+}
+
+#create{
+    color: rgb(181, 181, 199);
+    text-align: center;
+    position: flex;
+    background-color: rgb(98, 57, 126);
+    font-weight: bold;
+    width: 50%;
+    height: 40px;
+    border-radius: 2cm;
+    margin: 1cm;
+    
+}
+
+#creatte{
+    text-align: center;
+    width: 100%;
+}

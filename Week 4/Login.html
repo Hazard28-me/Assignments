@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <h1>Log In</h1>
+    <link rel="stylesheet" href="./Login.css">
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="email" id="e_mail">Email</label></td>
+                <td><input type="email" name="email" id="email" 
+                    placeholder="abcdefg@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="psw" id="pass">Password</label></td>
+                <td><input type="password" name="psw" id="psw"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required></td>
+            </tr>
+            <tr>
+                <td id="log-in" colspan="2"><input type="button" value="Log In" id="login"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="check" id="check">Remember Me</td>
+                <td id="fpass"><a href="#">Forgot Password?</a></td>
+            </tr>
+            
+        </table>
+    </form>
+    
+</body>
+</html>
